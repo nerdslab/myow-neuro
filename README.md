@@ -101,7 +101,7 @@ to prepare your data. This should also provide an inside look of how we handle v
 ## Contributors
 
 * Mehdi Azabou (Maintainer), github: [mazabou](https://github.com/mazabou)
-* Carolina Urzay, github: [](.)
+* Carolina Urzay, github: [curzay](https://github.com/curzay)
 * Ran Liu, github: [ranliu98](https://github.com/ranliu98)
 
 ## Citation
