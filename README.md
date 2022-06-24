@@ -1,4 +1,4 @@
-# MYOW - Representation Learning of neural activity
+# Mine your own view (MYOW) - Self-supervised Representation Learning for Neural Activity
 
 [![](https://img.shields.io/static/v1?label=arxiv&message=paper&color=red&logo=pagekit)](https://arxiv.org/abs/2102.10106)
 [![](https://img.shields.io/static/v1?label=colab&message=notebook&color=orange&logo=googlecolab)](./notebooks)
