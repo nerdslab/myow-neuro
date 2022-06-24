@@ -70,7 +70,7 @@ class MonkeyReachNeuralDataset:
         return len(self.data)
 
     @property
-    @lru_cache
+    @lru_cache(None)
     def _full_data(self):
         return Batch.from_data_list(self.data)
 
