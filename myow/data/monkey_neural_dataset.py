@@ -1,7 +1,7 @@
 import os
 import pickle
 import logging
-from functools import cached_property
+from functools import lru_cache
 
 import numpy as np
 import torch
@@ -69,7 +69,8 @@ class MonkeyReachNeuralDataset:
     def __len__(self):
         return len(self.data)
 
-    @cached_property
+    @property
+    @lru_cache
     def _full_data(self):
         return Batch.from_data_list(self.data)
 
